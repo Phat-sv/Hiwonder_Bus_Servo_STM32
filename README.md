@@ -4,6 +4,8 @@ Unlike traditional RC servos that only accept position commands, Hiwonder bus se
 
 Each servo can be configged with an ID, and the communication between microcontroller and servos bases on this ID.
 
+*I used these bus servo for my robot arm, [see here](https://www.youtube.com/watch?v=gQMT6rC0Xig)*
+
 Servo can also be configged many parameters:
 * Servo mode or motor mode
 * Speed
