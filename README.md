@@ -1,8 +1,6 @@
-This driver using HAL library of STM32 to communicate and control Hiwonder bus servo motor.
+**This driver provides STM32 HAL-based communication and control for Hiwonder Bus Servos, which operate using an UART serial protocol (115200 baud).**
 
-Hiwonder bus servo motor is controlled by ***serial commands with a baud rate of 115200 through a protocol***.
-
-**Microcontrollers can control not only position of servo but also can read feedback of their current positions, making them diffrence from RC servo type**.
+Unlike traditional RC servos that only accept position commands, Hiwonder bus servos ***support half duplex communication, allowing both control and feedback.***
 
 Each servo can be configged with an ID, and the communication between microcontroller and servos bases on this ID.
 
@@ -14,7 +12,7 @@ Servo can also be configged many parameters:
 * Led signal in case of overload or overtemperature,...
 
 **Check these files for more information:** 
-* [Protocol]()
+* [Protocol]() and [Frame format]()
 * [User manual]()
 
 
