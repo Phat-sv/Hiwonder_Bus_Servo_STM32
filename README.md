@@ -14,8 +14,8 @@ Servo can also be configged many parameters:
 * Led signal in case of overload or overtemperature,...
 
 **Check these files for more information:** 
-* [Protocol]() and [Frame format]()
-* [User manual]()
+* [Protocol](https://github.com/Phat-sv/Hiwonder_Bus_Servo_STM32/blob/main/Documents/Hiwonder%20Bus%20Servo%20Communication%20Protocol.pdf) and [Frame format](https://github.com/Phat-sv/Hiwonder_Bus_Servo_STM32/blob/main/Documents/Frame%20format.png)
+* [User manual](https://github.com/Phat-sv/Hiwonder_Bus_Servo_STM32/blob/main/Documents/LX-15D%20Bus%20Servo%20User%20Manual.pdf)
 
 
 
